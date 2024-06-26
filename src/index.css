@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+i, .update, .delete{
+  cursor: pointer;
+}
+
+.update:hover{
+  transition: background-color 0.5s;
+  background-color: rgba(var(--bs-success-rgb),var(--bs-bg-opacity));
+}
+
+.delete:hover{
+  transition: background-color 0.5s;
+  background-color: rgba(var(--bs-danger-rgb),var(--bs-bg-opacity));
+}
